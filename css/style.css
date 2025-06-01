@@ -143,7 +143,7 @@ img {
 .hero {
   position: relative;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/4761779/pexels-photo-4761779.jpeg') no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/hero-bg.png') no-repeat center center/cover;
   display: flex;
   align-items: center;
   padding: 0 50px;
@@ -218,15 +218,16 @@ img {
 
 .product-image {
   position: relative;
-  flex: 0 0 40%;
-  max-width: 100%;
+  flex: 0 0 500px;
+  max-width: 500px;
+  height: 300px;
   overflow: hidden;
 }
 
 .product-image img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  position: static ;
+  flex: 0 0 100%;
+  max-width: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
 }
@@ -393,12 +394,12 @@ img {
 }
 
 .testimonial-image {
-  flex: 0 0 100px;
-  max-width: 100px;
-  height: 100px;
-  border-radius: 5px;
+  flex: 0 0 200px;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 20px;
   overflow: hidden;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .testimonial-image img {
@@ -413,43 +414,6 @@ img {
 
 .testimonial-header {
   margin-bottom: 10px;
-}
-
-.user-info {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 10px;
-}
-
-.user-icon {
-  width: 30px;
-  height: 30px;
-  background-color: #ccc;
-  border-radius: 50%;
-}
-
-.stars {
-  color: var(--accent-color);
-  font-size: 0.9rem;
-}
-
-.date {
-  color: #888;
-  font-size: 0.8rem;
-}
-
-.review-details {
-  color: #ccc;
-  font-size: 0.9rem;
-}
-
-.review-details p {
-  margin-bottom: 5px;
-}
-
-.review-details span {
-  font-weight: 600;
 }
 
 /* Footer Section */
