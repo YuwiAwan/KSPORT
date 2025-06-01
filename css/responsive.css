@@ -1,0 +1,153 @@
+/* Responsive Styles */
+
+/* Large Devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .product-info h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Medium Devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 0 20px;
+  }
+  
+  .hero {
+    padding: 0 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .product-card {
+    flex-direction: column;
+  }
+  
+  .product-image, .product-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .product-image {
+    height: 300px;
+  }
+  
+  .footer-social, .footer-links {
+    flex: 0 0 100%;
+  }
+}
+
+/* Small Devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .hamburger {
+    display: block;
+  }
+  
+  .nav-links {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    transition: var(--transition);
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-links.active {
+    left: 0;
+  }
+  
+  .nav-links ul {
+    flex-direction: column;
+  }
+  
+  .nav-links li {
+    margin: 15px 0;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 0.9rem;
+  }
+  
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .testimonial-content {
+    flex-direction: column;
+  }
+  
+  .testimonial-image {
+    margin-right: 0;
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: 200px;
+  }
+  
+  .footer-column {
+    flex: 0 0 100%;
+  }
+}
+
+/* Extra Small Devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar {
+    padding: 0 15px;
+  }
+  
+  .hero {
+    padding: 0 15px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  .product-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .details-link {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .category-card {
+    height: 200px;
+  }
+  
+  .category-overlay h3 {
+    font-size: 1.2rem;
+  }
+  
+  .testimonial-image {
+    height: 150px;
+  }
+  
+  .footer-social h3, .footer-column h3 {
+    font-size: 1.1rem;
+  }
+}
