@@ -219,8 +219,8 @@ img {
 .product-image {
   position: relative;
   flex: 0 0 500px;
-  max-width: 500px;
-  height: 300px;
+  max-width: 400x;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -327,11 +327,12 @@ img {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  height: 250px;
+  height: 400px;
 }
 
 .category-image {
   height: 100%;
+  
 }
 
 .category-image img {
