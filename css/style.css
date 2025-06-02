@@ -459,10 +459,10 @@ img {
   background-color: var(--accent-color);
 }
 
-.social-icon.facebook:before { content: 'f'; }
-.social-icon.twitter:before { content: 'x'; }
-.social-icon.instagram:before { content: 'i'; }
-.social-icon.gmail:before { content: 'g'; }
+.social-icon.facebook:before { content: ''; }
+.social-icon.twitter:before { content: ''; }
+.social-icon.instagram:before { content: ''; }
+.social-icon.gmail:before { content: ''; }
 
 .footer-links {
   flex: 0 0 65%;
