@@ -447,7 +447,7 @@ img {
 .social-icon {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 40%;
   background-color: #333;
   display: flex;
   align-items: center;
@@ -462,7 +462,7 @@ img {
 .social-icon.facebook:before { content: 'f'; }
 .social-icon.twitter:before { content: 'x'; }
 .social-icon.instagram:before { content: 'i'; }
-.social-icon.google:before { content: 'g'; }
+.social-icon.gmail:before { content: 'g'; }
 
 .footer-links {
   flex: 0 0 65%;
