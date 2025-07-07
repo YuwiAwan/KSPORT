@@ -439,6 +439,10 @@ img {
   font-size: 1.2rem;
 }
 
+#google_translate_element {
+  padding-top: 67px;
+}
+
 .social-icons {
   display: flex;
   gap: 15px;
